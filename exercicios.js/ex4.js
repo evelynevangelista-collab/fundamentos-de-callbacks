@@ -1,4 +1,5 @@
 function processarTexto(texto, callbackModificadora) {
     return callbackModificadora(texto);
 }
-function 
+
+processarTexto("senai valinhos", (t) => console.log(t.toUpperCase()));
